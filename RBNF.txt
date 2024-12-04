@@ -18,7 +18,7 @@
 <equation> =    <signedNumber> | <identifier> |  <notRule> [{ <operationAndIdentOrNumber> | <equation> }];
 < notRule > =    <notOperation> <signedNumber> | <identifier> | <equation>;
 <operationAndIdentOrNumber> =    <mult> | <arithmetic> | <logic> | <compare> <signedNumber> | <identifier> | <equation> ;
-<arithmetic> =    "+" | "-";i
+<arithmetic> =    "+" | "-";
 <mult> =    "Mul" | "Div" | "Mod";
 <logic> =    "&&" | "||";
 <notOperation> =    "!!";
