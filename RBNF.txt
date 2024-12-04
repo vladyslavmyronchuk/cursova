@@ -2,8 +2,8 @@
 <varsBlok> =    "Int16_t" <identifier> [{<commaAndIdentifier>}];
 <identifier> =    _<up_letter> {<low_letter>} {6};
 <commaAndIdentifier> =    "," <identifier>;
-<codeBlok> =    "Start" <write> | <read> | <assignment> | <ifStatement> 
-| <goto_statement> |   < forToOrDownToDoRule> | <while>  | <repeatUntil> "End";
+<codeBlok> =     <write> | <read> | <assignment> | <ifStatement> 
+| <goto_statement> |   < forToOrDownToDoRule> | <while>  | <repeatUntil> ;
 <read> =    "Input"  <identifier> ;
 <write> =    "Output" <equation> ;
 <assignment> =    <identifier> <==    <equation>;
