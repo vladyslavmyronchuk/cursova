@@ -1,4 +1,4 @@
-<topRule> =    "Mainprogram" "Data" <varsBlok> ; "Start" <codeBlok> "End";
+<topRule> =    "MainProgram" "Data" <varsBlok> ; "Start" <codeBlok> "End";
 <varsBlok> =    "Int16_t" <identifier> [{<commaAndIdentifier>}];
 <identifier> =    _<up_letter> {<low_letter>} {6};
 <commaAndIdentifier> =    "," <identifier>;
