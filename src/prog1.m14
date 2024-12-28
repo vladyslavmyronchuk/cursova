@@ -1,0 +1,17 @@
+{*Prog1*}
+Mainprogram 
+Data Int16_t _Aaaaaaa,_Bbbbbbb,_Xxxxxxx,_Yyyyyyy;
+Start
+Input _Aaaaaaa;
+Input _Bbbbbbb;
+Output _Aaaaaaa + _Bbbbbbb;
+Output _Aaaaaaa - _Bbbbbbb;
+Output _Aaaaaaa Mul _Bbbbbbb;
+Output _Aaaaaaa Div _Bbbbbbb;
+Output _Aaaaaaa Mod _Bbbbbbb;
+
+_Xxxxxxx<==(_Aaaaaaa - _Bbbbbbb) Mul 10 + (_Aaaaaaa + _Bbbbbbb) Div 10;
+_Yyyyyyy<==_Xxxxxxx + (_Xxxxxxx Mod 10);
+Output _Xxxxxxx;
+Output _Yyyyyyy;
+End
